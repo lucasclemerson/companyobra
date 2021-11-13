@@ -13,9 +13,9 @@
             <div class="input-group has-validation">
             	<label for="campo_senha">Senha</label>
                 <input type="password" name="senha" id="campo_senha" class="form-control" maxlength="100" required>
-				<button id="btn-recuperar-senha">Esqueceu a senha?</button>
 			</div>
-        </div>
+			<button id="btn-recuperar-senha">Esqueceu a senha?</button>
+	    </div>
 
 		<div>
 			<button id="btn-cadastrar" type="reset">Cadastrar-se</button>

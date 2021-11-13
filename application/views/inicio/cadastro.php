@@ -16,5 +16,25 @@
 			</div>
         </div>
 
+        <div>
+            <div class="input-group has-validation">
+            	<label for="campo_funcao">Funcionário</label>
+                
+                <select class="form-select" aria-label="Default select example" name="funcao" id="campo_funcao">
+                    <option select value="0">Selecione sua função</option>
+                    <option value="1">Engenheiro (a)</option>
+                    <option value="2">Mestre de obra</option>
+                    <option value="3">Corporativo</option>
+                </select>
+            
+            </div>
+        </div>
+
+
+        <div>
+			<button id="btn-login" type="reset">Já tem cadastro</button>
+			<button type="submit">Cadastrar</button>
+		</div>
+
 	</form>
 </main>

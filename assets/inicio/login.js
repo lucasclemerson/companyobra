@@ -5,3 +5,8 @@ $("#btn-recuperar-senha").click(function(){
 $("#btn-cadastrar").click(function(){
     window.location.href = "http://localhost:80/inicio/cadastro";
 });
+
+$("#btn-login").click(function(){
+    window.location.href = "http://localhost:80/inicio";
+});
+

@@ -35,6 +35,7 @@ input{
 
 label{
     margin: auto;
+    margin-bottom: 4px;
     width: 100%;  
     text-align: start;  
 }
@@ -42,7 +43,8 @@ label{
 #btn-recuperar-senha{
     border: none;
     background-color: var(--color-background);
-    padding: 0px;
+    padding: 0px; 
+    box-shadow: none;
 }
 
 #btn-recuperar-senha:hover{
