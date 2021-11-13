@@ -1,0 +1,80 @@
+body {
+    background-color: var(--color-background);
+    margin: 150px;
+    color: #4F5155;
+}
+
+main{
+    margin: 100px;
+    border: 1px solid var(--color-bordas);
+    box-shadow: 0 0 8px var(--color-bordas);
+}
+
+h1 {
+    background-color: transparent;
+    border-bottom: 1px solid var(--color-bordas);
+    font-size: 1.4em;
+    margin: 0 0 14px 0;
+    padding: 14px 15px 10px 15px;
+    text-align: center;
+}
+
+form{
+    width: 40%;
+    margin: auto;
+    margin-top:60px;
+    margin-bottom:60px;
+}
+
+input{
+    width: 100%;
+    margin: auto;
+    text-align: start;
+    margin-bottom:20px;
+}
+
+label{
+    margin: auto;
+    margin-bottom: 4px;
+    width: 100%;  
+    text-align: start;  
+}
+
+#btn-recuperar-senha{
+    border: none;
+    background-color: var(--color-background);
+    padding: 0px; 
+    box-shadow: none;
+}
+
+#btn-recuperar-senha:hover{
+    color: var(--color-verde);
+}
+
+
+form > div > button{
+    border-color: var(--color-vermelho);
+    padding: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+    margin-top: 20px;
+    border-radius:10px;
+    width: auto;
+    background-color: var(--color-background);
+    box-shadow: 0 0 8px var(--color-bordas);
+} 
+
+form > div > button:hover{
+    background-color: var(--color-vermelho);
+    color: var(--color-background);
+}
+
+form > div > button:last-child{
+    border-color: var(--color-verde);
+} 
+
+
+form > div > button:last-child:hover{
+    background-color: var(--color-verde);
+    color: var(--color-background);
+} 

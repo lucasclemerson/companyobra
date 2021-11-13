@@ -1,0 +1,12 @@
+:root{
+    --color-texto: #4F5155;
+    --color-bordas: #D0D0D0;
+    --color-background: #fff;
+    --color-verde: #5f5;
+    --color-vermelho: #f55;
+}
+
+
+* {
+    color: var(--color-texto);
+}
